@@ -1,0 +1,26 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box; 
+}
+
+body{
+    background-image: linear-gradient(to right, #EEEEEE, #FFFFFF);
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.container-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.none{
+    display: none;
+}
